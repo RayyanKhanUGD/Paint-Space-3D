@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 78c3b4fd5f4d9974ea0a8dbebf68d45c
+guid: be51c4a24a718294ca9b5bbddbd6f9e1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 160, y: 0, z: 118, w: 0}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -141,13 +141,34 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Screenshot_7_0
+      name: Screenshot_7 1_0
       rect:
         serializedVersion: 2
-        x: 158
-        y: 83
-        width: 444
-        height: 819
+        x: 173
+        y: 99
+        width: 415
+        height: 793
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71769682b48ea344e87278029da14b03
+      internalID: 2013892047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screenshot_7 1_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 276
+        width: 397
+        height: 614
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,8 +176,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71aec7d1104c9d54eae38b2425366a5b
-      internalID: -596633650
+      spriteID: ce70b600e71c621438fb52fc64fe8f0e
+      internalID: 1024449667
       vertices: []
       indices: 
       edges: []
@@ -164,15 +185,16 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    spriteID: d60aaa30589d0b24386d89be14e859ee
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Screenshot_7_0: -596633650
+      Screenshot_7 1_0: 2013892047
+      Screenshot_7 1_1: 1024449667
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

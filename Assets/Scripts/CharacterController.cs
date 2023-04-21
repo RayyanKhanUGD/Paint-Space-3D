@@ -17,6 +17,8 @@ public class CharacterController : MonoBehaviour
     [SerializeField] private Sprite pickUpEmptySprites;
 
     [SerializeField] private Animator m_Animator;
+    [SerializeField] private Button sheildButton;
+    [SerializeField] private GameObject sheildSphere;
 
     private bool isHoldAbility;
     private int abilityNumber;
@@ -100,6 +102,8 @@ public class CharacterController : MonoBehaviour
     {
         otherPlayerAttackManager.GetComponent<AttackManager>().attackPower = 5;
         m_Animator.SetBool("isShilded", false);
+        sheildButton.interactable = true;
+        sheildSphere.SetActive(false);
     }
 
     private void RemoveFreezerEffectiveness()
@@ -179,5 +183,16 @@ public class CharacterController : MonoBehaviour
                 default: break;
             }
         }
+    }
+
+
+
+    public void Shild()
+    {
+        sheildButton.interactable = false;
+        sheildSphere.SetActive(true);
+        otherPlayerAttackManager.GetComponent<AttackManager>().attackPower = 0;
+        m_Animator.SetBool("isShilded", true);
+        Invoke(nameof(RemoveShieldEffectiveness), 5.5f);
     }
 }
